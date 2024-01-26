@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-
+class_name Escape_menu
 
 
 

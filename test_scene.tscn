@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://cf1g88h8onynb"]
+[gd_scene load_steps=5 format=3 uid="uid://bcqjyvh0j3s5b"]
 
-[ext_resource type="PackedScene" uid="uid://cg1lprlg15pf" path="res://main_character.tscn" id="1_7tejw"]
+[ext_resource type="PackedScene" uid="uid://b3vxdciu3dyrk" path="res://main_character.tscn" id="1_7tejw"]
+[ext_resource type="PackedScene" uid="uid://ct87cjrs67r5v" path="res://cumponent.tscn" id="2_d3ypy"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8wduo"]
 
@@ -18,3 +19,5 @@ physics_material_override = SubResource("PhysicsMaterial_8wduo")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="floor"]
 position = Vector2(576.5, 407)
 shape = SubResource("RectangleShape2D_0wks6")
+
+[node name="Cumponent" parent="." instance=ExtResource("2_d3ypy")]
