@@ -4,7 +4,7 @@
 [ext_resource type="Shader" path="res://shader.gdshader" id="2_nq1lg"]
 [ext_resource type="Texture2D" uid="uid://dx7a50s751rn4" path="res://icon.svg" id="2_xkxww"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_rwlil"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_63yul"]
 shader = ExtResource("2_nq1lg")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wmpmw"]
@@ -90,7 +90,7 @@ graph_offset = Vector2(-45, -37)
 script = ExtResource("1_c64iq")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-material = SubResource("ShaderMaterial_rwlil")
+material = SubResource("ShaderMaterial_63yul")
 texture = ExtResource("2_xkxww")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
