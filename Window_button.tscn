@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1qo7ajql10xn"]
+
+[ext_resource type="PackedScene" uid="uid://dp8d1hsm6cm8w" path="res://Settings.tscn" id="1_p2it8"]
+[ext_resource type="Script" path="res://Window_button.gd" id="2_ikvqy"]
+
+[node name="Window_button" instance=ExtResource("1_p2it8")]
+script = ExtResource("2_ikvqy")
