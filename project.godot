@@ -11,12 +11,15 @@ config_version=5
 [application]
 
 config/name="linaRPG"
-<<<<<<< Updated upstream
-=======
-run/main_scene="res://scenes and related scripts/test_scene.tscn"
->>>>>>> Stashed changes
+config/version="0.001"
+run/main_scene="res://scenes/test_scene.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="ignore"
 
 [dotnet]
 
@@ -38,12 +41,6 @@ interact={
 "deadzone": 0.5,
 "events": []
 }
-
-[layer_names]
-
-2d_render/layer_1="wall"
-2d_physics/layer_1="wall"
-2d_physics/layer_2="interactive"
 
 [rendering]
 
