@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://b3vxdciu3dyrk" path="res://scenes/characters/main_character.tscn" id="1_a40uw"]
 [ext_resource type="PackedScene" uid="uid://ct87cjrs67r5v" path="res://scenes/components/cumponent.tscn" id="2_h8mvf"]
 [ext_resource type="PackedScene" uid="uid://yjiqvk3ke2nc" path="res://scenes/components/interactive_class.tscn" id="3_6wx6q"]
-[ext_resource type="PackedScene" uid="uid://6ngc6hxprc4r" path="res://scenes/components/diolog.tscn" id="4_jd0lo"]
+[ext_resource type="PackedScene" uid="uid://6ngc6hxprc4r" path="res://scenes/ui/diolog.tscn" id="4_jd0lo"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8wduo"]
 
